@@ -1,24 +1,31 @@
 # Titanic Data Cleaning & Preprocessing
 
-## 1. Problem Statement
-The objective of this project is to clean and preprocess the Titanic dataset by handling missing values, removing inconsistencies, and preparing the data for analysis.
+## 📌 Problem Statement
+The objective of this project is to clean and preprocess the Titanic dataset by handling missing values, removing inconsistencies, and preparing the dataset for further analysis.
 
-## 2. Dataset
-- Dataset: Titanic Dataset 
+## 📊 Dataset
+- Dataset: Titanic Dataset
 - Source: Kaggle
+- Description: Contains passenger details such as age, gender, ticket class, and survival status.
 
-## 3. Approach
+## ⚙️ Approach
 - Loaded and explored the dataset
-- Handled missing values (Age, Embarked)
-- Removed Cabin column due to excessive missing data
+- Checked for missing values and data types
+- Handled missing values in Age and Embarked columns
+- Removed Cabin column due to excessive missing values
 - Removed duplicate records
 - Renamed columns and adjusted data types
 
-## 4. Results / Insights
-- The age column had missing values, which were handled using the mean
-- Cabin column was dropped due to high missing values
-- Dataset is now clean and ready for analysis
+## 🛠️ Tools Used
+- Python
+- Pandas
+- NumPy
+- Google Colab
 
-## 5. Files
-- TITANIC DATA CLEANING.ipynb
-- train.csv
+## 📈 Results / Insights
+- Age column had missing values which were handled using mean
+- Cabin column was dropped due to high missing values
+- Dataset is now clean, consistent, and ready for analysis
+
+## 📁 Files
+- titanic_data_cleaning.ipynb
