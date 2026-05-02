@@ -28,4 +28,4 @@ The objective of this project is to clean and preprocess the Titanic dataset by 
 - Dataset is now clean, consistent, and ready for analysis
 
 ## Files
-- titanic_data_cleaning.ipynb
+- TITANIC_DATA_CLEANING.ipynb
